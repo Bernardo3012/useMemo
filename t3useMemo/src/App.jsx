@@ -14,7 +14,6 @@ export default function App(){
 
   return(
     <>
-      <h1>{input}</h1>
       <input type="text" onChange={(e) =>{setInput(e.target.value)}}/>
       <button onClick={handleAdd}>Adicionar</button>
       {tarefas.map((tarefas)=>(
